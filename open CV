@@ -1,0 +1,9 @@
+import cv2
+# Load image (replace with your image path)
+image = cv2.imread('sample.jpg')
+# Convert to grayscale
+gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+# Show image (uncomment when running locally)
+# cv2.imshow('Gray Image', gray)
+# cv2.waitKey(0)
+# cv2.destroyAllWindows()
